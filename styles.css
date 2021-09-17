@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+} 
+/* Menu Bar Styling */
+
+.max-width{
+    max-width: 1300px;
+    padding: 0px;
+    margin: auto;
+}
+.menubar{
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    */ background: #34435E; */ 
+    font-family: 'Raleway', sans-serif;
+    transition: all 0.3s ease; 
+}
+.menubar .widthletters{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.menubar .letters a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+.menubar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menubar .menu li a{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 5px #000;
+    transition: color 0.3s ease;
+
+}
+.Header a{
+    color:#fff;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 5px #000;
+    transition: color 0.3s ease;
+
+}
+
+/* Home Styling */
+
+.home{
+    display: flex;
+    height: 100vh;
+    color: #000;
+    text-shadow: 2px 2px 5px grey;
+    min-height: 100px;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+
+
+}
+
+.home .home-content .text-1{
+    font-size: 27px;
+    color:#000;
+    text-shadow: 2px 2px 5px #fff;
+
+}
+
+.home .home-content .text-2{
+    font-size: 55px;
+    font-weight: 10;
+    margin-left: -3px;
+    color: rgb(37, 170, 253);
+    text-shadow: 2px 2px 5px #fff;
+
+    
+
+}
+.home .home-content .text-2 span{
+    font-size: 75px;
+    font-weight: 10;
+    margin-left: -3px;
+    text-shadow: 2px 2px 5px crimson;
+    color: #fff;
+    font-style: italic;
+}
+
+
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+    
+
+}
+.home .home-content .text-3 span{
+    color: crimson; 
+    font-weight: 500;
+    font-style: italic;
+    text-shadow: 2px 2px 5px #fff;
+    
+    
+
+
+}
+/* Search-Box */
+
+.search-box{
+    position: absolute;
+    color: #fff;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(37, 170, 253);
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+
+
+.search-txt{
+    border: none;
+    background: rgb(37, 170, 253);
+    outline: none;
+    float: left;
+    padding: 10;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 25px;
+    width: 400px;
+}
