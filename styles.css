@@ -145,3 +145,35 @@
     line-height: 25px;
     width: 400px;
 }
+
+/* Top Stories */
+
+.header{
+    padding: 16px;
+    color: #000;
+    text-shadow: 2px 2px 5px #fff;
+    font-size: 30px;
+
+
+}
+:root{
+    border-radius: 6px;
+    color: #fff;
+}
+
+.Mediacontent .Maincontent .TopStories{
+    padding: 0px;
+    height: 900px;
+    width: 650px;
+    
+    
+
+}
+.Mediacontent .Maincontent .TopStories2{
+    place-content: right;
+    height: 900px;
+    width: 400px;
+    
+    
+
+}
