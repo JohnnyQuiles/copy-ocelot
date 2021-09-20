@@ -124,7 +124,7 @@
 
 .search-box{
     position: fixed;
-    color: #fff;
+    color: crimson;
     top: 10.5%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -138,12 +138,12 @@
 
 .search-txt{
     border: none;
-    background: rgb(37, 170, 253);
+    background:rgb(37, 170, 253);
     outline: none;
     float: left;
     padding: 10;
-    color: #fff;
-    font-size: 16px;
+    color: #000;
+    font-size: 20px;
     transition: 0.4s;
     line-height: 25px;
     width: 400px;
@@ -174,7 +174,7 @@
 }
 .Mediacontent .Maincontent .TopStories2{
     place-content: right;
-    height: 900px;
+    height: 875px;
     width: 400px;
     }
 
@@ -223,10 +223,11 @@
 /* rain icon */
 
 .rain{
-    right: 1350px;
+    right: 1200px;
 
-    width: 80%;
-    position: relative;
+
+    width: 50%;
+    position: absolute;
     align-items: center;
     text-align: center;
 
@@ -234,7 +235,7 @@
 }
 .rain img{
 
-    width: 1500px;
+    width:1000px;
     animation: rain 5s linear 4s infinite;
     animation-direction: reverse;
 }
@@ -252,7 +253,7 @@
             opacity: 1;
         }
         100%{
-            transform: translateY(-60vh);
+            transform: translateY( -900vh);
             opacity: 0;
         }
     }
